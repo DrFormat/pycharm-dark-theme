@@ -1,0 +1,52 @@
+{
+	"name": "pycharm-dark-theme",
+	"displayName": "PyCharm Dark Theme",
+	"description": "PyCharm Dark theme for VS Code",
+	"version": "0.0.3",
+	"license": "MIT",
+	"publisher": "DrFormat",
+	"icon": "img/icon.png",
+	"engines": {
+		"vscode": "^1.75.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"python",
+		"semantic",
+		"highlighting",
+		"cold",
+		"dark",
+		"darcula",
+		"darkula",
+		"dracula",
+		"drakula",
+		"pycharm",
+		"IntelliJ",
+		"New UI",
+		"icons",
+		"JetBrains",
+		"JetBrains Mono",
+		"PyCharm",
+		"font",
+		"Javascript",
+		"TypeScript"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "PyCharm Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/pycharm-dark-theme.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "pdi",
+				"label": "PyCharm Dark Icons",
+				"path": "./themes/pycharm-dark-icons.json"
+			}
+		]
+	}
+}
